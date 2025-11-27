@@ -10,5 +10,28 @@ This project is Work-In-Progress and the designs are not finalized. Contribution
 ## Design considerations
 The blank box is designed to house the breadboard either flat on the surface or the board side facing the bottom, with enough spaces in either way to have a small MCU module and typical dupont connectors used without much obstructions. The natural shape of the breadboards allow the wires to pass through at the two side to get to the extender or outside without an issue.
 
+The breadboard is meant to be friction fit into the box, though it can also be stick to the top panel using the double sided tape typically comes with the breadboards themselves.
+
+The sensor box itself is not designed to be very durable and that is on purpose because my primary goal is to hide the components from outside and it must be printed as cheap as possible.
+
+
+## Current models
+| Name                | Description                                                                                                                                       |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| blank               | Default box with no other means of access to the internals from outside. This is a useful box to create a enclosed sensor.                        |
+| blank-with-use-slot | Default box with a single rectangular slot. The slot is aligned with typical MCU development modules' USB port location.                          |
+| extender            | Extension shell to add more space to the box. It can be clipped on to the another module.                                                         |
+| extender-with-holes | Extension shell with holes on all four panels. This is designed to provide air flow for sensor modules like temperature/humidity and gas sensors. |
+| lid                 | A simple panel with notches to snap into other modules.                                                                                           |
+
+Extender modules have interal lips to the notch side to prevent the breadboard to be moved out of the intended location.
+
+## Current plans
+- A space divider to seal off compartments with dupont connector holes to ensure the connection points.
+- blank-with-holes
+
+## Known issues
+- The tolerance for the notch holes are a bit loose, though the notch themselves snapped into place way too tight, often causing breakage of the notches.
+
 ## License
 This work adopts CC SA-BY license. Check the License section for more details.
